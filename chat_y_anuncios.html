@@ -12,67 +12,40 @@
         <title>EcoTripulantes|Chat y anuncios</title>
     </head>
     <body>
-        <div class="container">
-            <div class="container">
-                <div class="row">
+        <div class="container-sm">
+            <div class="row">
+                <div class="col">
+                    <img src="./assets/logo.jpeg" class="rounded float-start" style="width: 100%;" alt="No se puede cargar la imagen">
+                </div>
+                <div class="col-8">
+                    <h1 class="display-1 text-center text-primary">EcoTripulantes</h1>
+                </div>
+                <!-- Login -->
+                <div class="col d-flex align-items-center">
                     <div class="col">
-                        <img src="./assets/logo.jpeg" class="rounded float-start" style="width: 100%;" alt="No se puede cargar la imagen">
-                    </div>
-                    <div class="col-8">
-                        <h1 class="display-1 text-center text-primary">EcoTripulantes</h1>
-                    </div>
-                    <!-- Enlaces a redes -->
-                    <div class="col">
-                        <div class="row">
-                            <h4 class="display-7 text-primary text-end">Social Media</h4>
-                        </div>
-                        <div class="row">
-                            <div class="col-2"></div>
-                            <div class="col-2 p-0">
-                                <a href="https://www.instagram.com"><i class="bi bi-instagram" style="font-size: 1.5rem"></i></a>
-                            </div>
-                            <div class="col-2 p-0">
-                                <a href="https://www.facebook.com"><i class="bi bi-facebook" style="font-size: 1.5rem"></i></a>
-                            </div>
-                            <div class="col-2 p-0">
-                                <a href="https://www.twitter.com"><i class="bi bi-twitter" style="font-size: 1.5rem"></i></a>
-                            </div>
-                            <div class="col-2 p-0">
-                                <a href="https://www.linkedin.com"><i class="bi bi-linkedin" style="font-size: 1.5rem"></i></a>
-                            </div>
-                            <div class="col-2 p-0">
-                                <a href="https://www.quora.com"><span class="material-icons md-light">quora</span></a>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="row justify-content-end">
-                                <div class="col-2">
-                                    <a href="Index.html"><span class="material-icons md-light">login</span></a>
-                                </div>
-                            </div>
-                            <div class="row justify-content-end">
-                                <div class="col-4">
-                                    <h6 class="display-7">EcoLogin</h6>
-                                </div>
-                            </div>
+                        <div class="row row-cols-2">
+                            <a href="">
+                                <i class="bi bi-person-circle"></i>
+                                <h6 class="display-7 text-primary">EcoLogin</h6>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Barra de navegación -->
-            <div class="container">
-                <ul class="nav nav-tabs">
+            <div class="container-md">
+                <ul class="nav nav-tabs justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="Index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Información</a>
+                        <a class="nav-link" href="ZUInformacion.html">Información</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Datos de Perfil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Chat y Anuncios</a>
+                        <a class="nav-link" href="chat_y_anuncios.html">Chat y Anuncios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Acerca de</a>
@@ -143,7 +116,16 @@
                                                 </h2>
                                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
-                                                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                        <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+                                                            <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                                                            <label class="btn btn-outline-primary" for="btncheck1">Publicación 1</label>
+                                                            
+                                                            <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                                                            <label class="btn btn-outline-primary" for="btncheck2">Publicación 2</label>
+                                                            
+                                                            <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                                                            <label class="btn btn-outline-primary" for="btncheck3">Publicación 3</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -155,7 +137,16 @@
                                                 </h2>
                                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
-                                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                        <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+                                                            <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                                                            <label class="btn btn-outline-primary" for="btncheck1">Publicación 1</label>
+                                                            
+                                                            <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                                                            <label class="btn btn-outline-primary" for="btncheck2">Publicación 2</label>
+                                                            
+                                                            <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                                                            <label class="btn btn-outline-primary" for="btncheck3">Publicación 3</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
