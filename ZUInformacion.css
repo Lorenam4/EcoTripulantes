@@ -8,7 +8,7 @@
     flex-wrap: nowrap;
 }
     .header{
-        flex-flow: column;
+        /* flex-flow: column; */
     }
         .logo{
             float: left;
