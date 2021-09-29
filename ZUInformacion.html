@@ -1,84 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ZUInformacion.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="icons.css">
-    <title>Ecotripulantes Ver Información publicada</title>
-</head>
-<body>
-    <div class="container-sm">
-        <header class="encabezado">
-            <div class="row">
-                <div class="col">
-                    <img src="./assets/logo.jpeg" class="rounded float-start" style="width: 100%;" alt="No se puede cargar la imagen">
-                </div>
-                <!-- <section class="logo">
-                    <!-- <img src="Logo1.jpeg" alt="Logo" style="width:70px;height:70px;"> -->
-                </section> -->
-                <div class="col-8">
-                    <h1 class="display-1 text-center text-primary">EcoTripulantes</h1>
-                </div>
-                <!-- <section class="titulo">
-                    <!-- <h1>Ecotripulantes</h1> -->
-                </section> -->
-                <!-- Login -->
-                <div class="col d-flex align-items-center">
-                    <div class="col">
-                        <div class="row row-cols-2">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+         -->
+        <link rel="stylesheet" href="Styles.css">
+        <title>EcoTripulantes</title>
+    </head>
+    <body>
+        <!--inicia el header -->
+        <header class="header">
+            <img class="header__img" src="./assets/logo.jpeg" alt="">
+            <!-- <div class="col-8">
+                <h1 class="display-1 text-center text-primary">EcoTripulantes</h1>
+            </div> -->
+            <div class="header__menu">
+                <nav class="navbar navbar-inverse box-shadow navbar-light justify-content-end" id="headerCustom">
+                    <ul class="nav   lista">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="Index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ZUInformacion.html">Información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Datos de Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="chat_y_anuncios.html">Chat y Anuncios</a>
+                        </li>
+                        <li class="nav-item profile">
                             <a href="">
                                 <i class="bi bi-person-circle"></i>
-                                <h6 class="display-7 text-primary">EcoLogin</h6>
+                                <p class="display-7 login">Iniciar Sesión</p>
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-md">
-                <ul class="nav nav-tabs justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="Index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ZUInformacion.html">Información</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Datos de Perfil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="chat_y_anuncios.html">Chat y Anuncios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Acerca de</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- <section class="enc">
-                
-                <nav class="menu">
-                    <section class="inicio">Inicio</section>
-                    <section class="opcion1">Opcion1</section>
-                    <section class="opcion2">Opcion2</section>
-                    <section class="hacerPublicacion">Hacer Publicacion</section>
+                        </li>
+                    </ul>
                 </nav>
-            </section> -->
-            
-            <!-- <div class="menu">
-                
-            </div> -->
-                        
+            </div>
         </header>
-        <section class="contenido">
-            <nav class="publicaciones"></nav>
-        </section>
+        <!--Finaliza el header-->
+
+         <!-- inicio contenido principal -->
+        <main class="container-lg">
+            <section class="services-section">
+                <div class="row title-container">
+                    
+                    <h2>Información publicada</h2>
+                </div>
+                <div id="marcoPublicaciones" class="row">
+                    <article class="col-12 col-md-6 col-lg-4 publicacion" id = 'publicacion1'>
+                        <img src="assets/Ecología1.jpg" alt="">
+                        <h3>Publicación 1</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui velit facere nesciunt quo perferendis, ut quasi asperiores harum soluta vel id corrupti repellendus quis, sit voluptatibus fuga atque eveniet!</p>
+
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-4 publicacion" id = 'publicacion2'>
+                        <img src="assets/Ecología2.jpg" alt="">
+                        <h3>Publicación 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit possimus magni nulla unde voluptatum cupiditate a impedit saepe fugit ab aperiam praesentium ipsa, sit excepturi iusto aliquid earum. Dolore, sed?</p>
+
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-4 publicacion" id = 'publicacion3'>
+                        <img src="assets/Ecología3.jpg" alt="">
+                        <h3>Publicación 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tenetur obcaecati distinctio, unde, nostrum minus deserunt libero earum dolorem deleniti debitis consequatur ad alias perferendis temporibus id quas dignissimos corrupti.</p>
+
+                    </article>
+                </div>
+            </section>
+        </main>
+        <!-- fin contenido principal -->
         
-    </div>
-    <!-- <h5>ZONA USUARIOS - INFORMACIÓN</h5> -->
-</body>
+        <!--Inicia footer-->
+        <div class=" footer" id="footer-color">
+            <div class="copyright">
+                <p>Desarrollado por EcoTripulantes | 2021 </p>
+            </div>
+            
+        </div>
+        <!--Finaliza footer-->
+       
+    </body>
 </html>
