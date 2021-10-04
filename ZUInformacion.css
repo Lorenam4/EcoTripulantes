@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+.marcoPpal  {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+}
+    .header{
+        /* flex-flow: column; */
+    }
+        .logo{
+            float: left;
+            background-color: aqua;
+            flex: 1 5 auto;
+
+        }
+        .titulo{
+            float: left;
+            display: flex;
+            flex-flow: row;
+            height: 50px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .menu{
+            float: none;
+            display: flex;
+            flex-flow: row;
+            height: 60px;
+        }

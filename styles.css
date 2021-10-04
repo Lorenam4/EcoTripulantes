@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    font-family: 'Muli', sans-serif;
+  
+}
+
+.header{
+    box-shadow:  0 4px 6px 0 rgb(0 0 0 / 9%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header__img{
+    width: 100px;
+    margin-top: -7px;
+    margin-left: 86px;;
+}
+
+.header__menu {
+    margin-right: 30px;
+}
+
+.header__menu li {
+    margin: auto;
+}
+
+.header__menu li a {
+    text-decoration: none;
+   
+}
+
+.login{
+    display: contents;
+    margin: auto;
+}
+.footer{
+    color: white;
+    margin-top: 10px;
+}
+
+#footer-color{
+    background-color: #2D46B9;
+}
+.copyright{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    
+}
+.copyright p{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 36px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
